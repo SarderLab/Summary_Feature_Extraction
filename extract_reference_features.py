@@ -14,7 +14,7 @@ from skimage.transform import resize
 from skimage.util import img_as_ubyte
 from tqdm import tqdm
 import time
-import tiffslide as openslide
+import openslide
 from joblib import Parallel, delayed
 from skimage.color import rgb2lab,rgb2hsv
 from skimage.io import imsave
