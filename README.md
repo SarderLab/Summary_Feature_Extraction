@@ -1,7 +1,7 @@
 # Summary_Feature_Extraction
 This repository contains codes for extracting features from Aperio ImageScope compatible slides and XML annotation files. 
 
-#Requirements
+# Requirements
 - Python 3.8
 - OpenSlide 3.4.0
 - openslide-python 1.3.0
@@ -12,7 +12,7 @@ This repository contains codes for extracting features from Aperio ImageScope co
 - joblib 1.2.0
 - tqdm 4.65.0
 
-#Usage
+# Usage
 To run feature extraction, run the following line:
 ```
 python3 main.py --target /path/to/XML/files/ --wsis /path/to/whole_slide_images/
