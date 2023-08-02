@@ -18,7 +18,7 @@ To run feature extraction, run the following line:
 python3 main.py --target /path/to/XML/files/ --wsis /path/to/whole_slide_images/
 ```
 
-#Additional Arguments
+# Additional Arguments
 Additional arguments can be configured in the *main.py* script
 ```
 --wsi_ext = comma separated string of WSI file extensions
